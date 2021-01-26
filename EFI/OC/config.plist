@@ -719,7 +719,7 @@
 			<key>HideAuxiliary</key>
 			<false/>
 			<key>PickerAttributes</key>
-			<integer>1</integer>
+			<integer>17</integer>
 			<key>PickerAudioAssist</key>
 			<false/>
 			<key>PickerMode</key>
@@ -733,7 +733,7 @@
 			<key>Timeout</key>
 			<integer>5</integer>
 			<key>PickerVariant</key>
-			<string>Auto</string>
+			<string>Modern</string>
 		</dict>
 		<key>Debug</key>
 		<dict>
