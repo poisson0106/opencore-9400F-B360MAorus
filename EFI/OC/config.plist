@@ -695,6 +695,8 @@
 			<false/>
 			<key>XhciPortLimit</key>
 			<true/>
+			<key>SetApfsTrimTimeout</key>
+			<integer>-1</integer>
 		</dict>
 		<key>Scheme</key>
 		<dict>
@@ -734,6 +736,10 @@
 			<integer>5</integer>
 			<key>PickerVariant</key>
 			<string>Modern</string>
+			<key>LauncherOption</key>
+			<string>Disabled</string>
+			<key>LauncherPath</key>
+			<string>Default</string>
 		</dict>
 		<key>Debug</key>
 		<dict>
@@ -783,8 +789,6 @@
 			<integer>0</integer>
 			<key>AuthRestart</key>
 			<true/>
-			<key>BootProtect</key>
-			<string>Bootstrap</string>
 			<key>DmgLoading</key>
 			<string>Signed</string>
 			<key>EnablePassword</key>
@@ -914,6 +918,8 @@
 			<string>C02C3KZGJV3Q</string>
 			<key>SystemUUID</key>
 			<string>C9B55A2B-2B15-4C46-B99B-DC29B12BDC71</string>
+			<key>MaxBIOSVersion</key>
+			<false/>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -965,7 +971,6 @@
 		<key>Drivers</key>
 		<array>
 			<string>HfsPlus.efi</string>
-			<string>OpenUsbKbDxe.efi</string>
 			<string>OpenRuntime.efi</string>
 			<string>OpenCanopy.efi</string>
 		</array>
@@ -1069,6 +1074,8 @@
 			<key>TscSyncTimeout</key>
 			<integer>0</integer>
 			<key>UnblockFsConnect</key>
+			<false/>
+			<key>DisableSecurityPolicy</key>
 			<false/>
 		</dict>
 		<key>ReservedMemory</key>
