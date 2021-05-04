@@ -1091,6 +1091,12 @@
 			<false/>
 			<key>ActivateHpetSupport</key>
 			<false/>
+			<key>EnableVectorAcceleration</key>
+			<true/>
+			<key>ForgeUefiSupport</key>
+			<false/>
+			<key>ReloadOptionRoms</key>
+			<false/>
 		</dict>
 		<key>ReservedMemory</key>
 		<array>
@@ -1123,8 +1129,6 @@
 		<dict>
 			<key>AppleEvent</key>
 			<string>Builtin</string>
-			<key>CustomDelays</key>
-			<string>Auto</string>
 			<key>KeyInitialDelay</key>
 			<integer>0</integer>
 			<key>KeySubsequentDelay</key>
@@ -1133,6 +1137,8 @@
 			<integer>1</integer>
 			<key>PointerSpeedMul</key>
 			<integer>1</integer>
+			<key>CustomDelays</key>
+			<false/>
 		</dict>
 	</dict>
 </dict>
